@@ -28,15 +28,21 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The goal is to f
 
 This project leverages the following technologies:
 
-1. <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30" height="30"> **OpenCV**: For image processing to extract Sudoku grids from images.
+1. <div style="background-color: #f44336; padding: 5px; display: inline-block; border-radius: 5px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30" height="30">
+</div> **OpenCV**: For image processing to extract Sudoku grids from images.
 
-2. <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS" width="30" height="30"> **ReactJS**: For an interactive and user-friendly frontend interface.
+2. <div style="background-color: #61dafb; padding: 5px; display: inline-block; border-radius: 5px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS" width="30" height="30">
+</div> **ReactJS**: For an interactive and user-friendly frontend interface.
 
-3. <div style="background-color: white; color:white; padding: 5px; border-radius: 5px; display: inline-block;">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="FlaskAPI" width="30" height="30"> **FlaskAPI**: To serve as the backend, handling image processing and solution generation.
-</div>
+3. <div style="background-color: #ffffff; padding: 5px; display: inline-block; border-radius: 5px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="FlaskAPI" width="30" height="30">
+</div> **FlaskAPI**: To serve as the backend, handling image processing and solution generation.
 
-4. <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="30" height="30"> **Convolutional Neural Networks (CNN)**: To predict digits from the extracted grid.
+4. <div style="background-color: #ffa726; padding: 5px; display: inline-block; border-radius: 5px;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="30" height="30">
+</div> **Convolutional Neural Networks (CNN)**: To predict digits from the extracted grid.
 
 
 
