@@ -28,16 +28,13 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The goal is to f
 
 This project leverages the following technologies:
 
-1. <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="20" height="20"> **OpenCV**: For image processing to extract Sudoku grids from images.
+1. <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30" height="30"> **OpenCV**: For image processing to extract Sudoku grids from images.
 
-2. **ReactJS**: For an interactive and user-friendly frontend interface.  
-   ![ReactJS Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+2. <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS" width="30" height="30"> **ReactJS**: For an interactive and user-friendly frontend interface.
 
-3. **FlaskAPI**: To serve as the backend, handling image processing and solution generation.  
-   ![Flask Logo](https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg)
+3. <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="FlaskAPI" width="30" height="30"> **FlaskAPI**: To serve as the backend, handling image processing and solution generation.
 
-4. **Convolutional Neural Networks (CNN)**: To predict digits from the extracted grid.  
-   ![TensorFlow Logo](https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg)
+4. <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="30" height="30"> **Convolutional Neural Networks (CNN)**: To predict digits from the extracted grid.
 
 ---
 
