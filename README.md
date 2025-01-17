@@ -32,7 +32,9 @@ This project leverages the following technologies:
 
 2. <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS" width="30" height="30"> **ReactJS**: For an interactive and user-friendly frontend interface.
 
-3. <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo_white.svg" alt="FlaskAPI" width="30" height="30"> **FlaskAPI**: To serve as the backend, handling image processing and solution generation.
+3. <div style="background-color: white; color:white; padding: 5px; border-radius: 5px; display: inline-block;">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="FlaskAPI" width="30" height="30"> **FlaskAPI**: To serve as the backend, handling image processing and solution generation.
+</div>
 
 4. <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="30" height="30"> **Convolutional Neural Networks (CNN)**: To predict digits from the extracted grid.
 
