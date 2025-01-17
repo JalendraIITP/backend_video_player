@@ -7,7 +7,7 @@ This web application provides an efficient solution of Sudoku puzzles using a co
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Tech Stack](#🛠tech-stack)
+- [Tech Stack](#tech-stack🛠)
 - [Algorithm Overview](#algorithm-overview)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
@@ -24,7 +24,7 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The goal is to f
 ---
 
 
-## Tech Stack
+## Tech Stack🛠
 <p align="center"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> </p> <p align="center"> <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> </p>
 
 ---
