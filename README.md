@@ -1,19 +1,18 @@
 # Sudoku Solver
 
-This repository provides an efficient solution for solving Sudoku puzzles using a combination of **image processing**, **machine learning**, and **algorithmic optimization** techniques. It demonstrates how diverse technologies can work together to solve constraint-based problems like Sudoku.
+This web application provides an efficient solution of Sudoku puzzles using a combination of **image processing**, **machine learning**, and **Backtracking Algorithm** techniques.
 
 ---
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Technology Stack](#technology-stack)
+- [Tech Stack](#tech-stack)
 - [Algorithm Overview](#algorithm-overview)
 - [Getting Started](#getting-started)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Results](#results)
+- [Interface](#interface)
 - [References](#references)
 
 ---
@@ -25,12 +24,8 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The goal is to f
 ---
 
 
-## 🛠 Tech Stack
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-
+## Tech Stack
+<p align="center"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"> </p> <p align="center"> <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> </p>
 
 ---
 
@@ -56,20 +51,6 @@ The implemented Sudoku Solver pipeline includes:
 
 ## Getting Started
 
-### Prerequisites
-
-Ensure you have the following software installed:
-
-- **Python** 3.x
-- Libraries:
-  - **OpenCV**
-  - **Flask**
-  - **NumPy**
-  - **TensorFlow** (or PyTorch for CNNs)
-- **Node.js** (for running the ReactJS frontend)
-
----
-
 ### Installation
 
 1. **Clone this repository**:
@@ -79,26 +60,21 @@ Ensure you have the following software installed:
     cd Sudoku-Solver
     ```
 
-2. **Install the required dependencies**:
+2. **Install frontend dependencies**:
 
     ```bash
-    pip install -r requirements.txt
-    cd frontend
+    cd Frontend
     npm install
     ```
+3. **Install backend dependencies**:
 
-3. **Set up the CNN model**:
-   - Place your pre-trained CNN model file in the `models` directory.
+    ```bash
+    cd Backend
+    pip install -r requirements.txt
+    ```
 
----
-
-## Features
-
-- **Image-based Sudoku Solving**: Upload an image of a Sudoku puzzle to get the solution.
-- **Accurate Digit Recognition**: Uses a CNN for reliable digit prediction.
-- **Efficient Backtracking**: Solves recognized grids with advanced optimizations.
-- **Interactive Frontend**: User-friendly interface built with ReactJS.
-- **API Integration**: Modular backend using FlaskAPI.
+4. **Set up the CNN model**:
+   - Place your pre-trained CNN model file in the `Model` directory.
 
 ---
 
@@ -107,13 +83,14 @@ Ensure you have the following software installed:
 1. **Start the backend server**:
 
     ```bash
-    python app.py
+    cd Backend
+    python server.py
     ```
 
 2. **Run the frontend**:
 
     ```bash
-    cd frontend
+    cd Frontend
     npm start
     ```
 
@@ -121,18 +98,12 @@ Ensure you have the following software installed:
    - Use the frontend interface to upload a Sudoku puzzle image.
 
 4. **View Results**:
-   - The solution is displayed interactively on the web interface.
+   - Click the solve button, and the solution will be displayed interactively on the web interface.
 
 ---
 
-## Results
+## Interface
 
-The Sudoku Solver can process images and solve puzzles with varying difficulty levels. Below are sample results:
-
-### Input Image:
-![Input Image](images/sample_input.jpg)
-
-### Recognized Grid:
 
 ---
 
