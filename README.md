@@ -28,7 +28,7 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. The goal is to f
 
 This project leverages the following technologies:
 
-1. <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="30" height="30"> **OpenCV**: For image processing to extract Sudoku grids from images.
+1. <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" alt="OpenCV" width="20" height="20"> **OpenCV**: For image processing to extract Sudoku grids from images.
 
 2. **ReactJS**: For an interactive and user-friendly frontend interface.  
    ![ReactJS Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
