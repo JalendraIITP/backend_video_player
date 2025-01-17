@@ -7,7 +7,7 @@ This web application provides an efficient solution of Sudoku puzzles using a co
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Tech Stack](#tech-stack)
+- [Tech Stack](#🛠tech-stack)
 - [Algorithm Overview](#algorithm-overview)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
